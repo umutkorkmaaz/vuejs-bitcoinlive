@@ -2,6 +2,8 @@
 
 > Bitcoin Live
 
+> Dakikada bir güncellenmektedir.
+
 ## Kurulum
 
 ``` bash
@@ -10,3 +12,6 @@ npm install
 
 # Çalıştırın
 npm run dev
+
+```
+API için CoinDesk'e teşekkürler. 
