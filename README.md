@@ -15,3 +15,4 @@ npm run dev
 
 ```
 API için CoinDesk'e teşekkürler. 
+VueJS dersleri için Fatih Acet'e teşekkürler.
