@@ -1,12 +1,12 @@
-# bitcoin
+# Bitcoin Kur Takibi
 
 > Bitcoin Live
 
-## Build Setup
+## Kurulum
 
 ``` bash
-# install dependencies
+# Gereksinimleri yükleyin
 npm install
 
-# serve with hot reload at localhost:8080
+# Çalıştırın
 npm run dev
