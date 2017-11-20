@@ -21,6 +21,7 @@
 		<div class="watchbox">
 			<p><b>Son Güncelleme:</b> {{songuncelleme}}</p>
 		</div>
+		<p style="color:#aaa;">{{disclaimer}}</p>
 	</div>
 </template>
 <script>
@@ -35,7 +36,8 @@
 				usdup:'',
 				trydown:'',
 				tryup:'',
-				load: true
+				load: true,
+				disclaimer:''
 			}
 		},
 		created(){
@@ -66,6 +68,7 @@
 							this.usdup = true;
 						}
 					this.load = false;
+					this.disclaimer = res.disclaimer;
 					this.turklirasi = res.bpi.TRY['rate_float'];
 					this.dolar = res.bpi.USD['rate_float'];
 					var d = new Date(res.time['updatedISO']);
